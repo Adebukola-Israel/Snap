@@ -1,0 +1,127 @@
+*{
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+ background: #f7f7f7;
+}
+header{
+  display: flex;
+  justify-content:space-between ;
+  align-items: center;
+  padding: 10px 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-top: -10px;
+}
+.title{
+  font-size: 20px;
+}
+
+nav ul {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  list-style: none;
+  margin-left: -300px;
+  font-size: 13px;
+  font-weight: 600;
+  
+}
+ul li a{ 
+  margin-left: -120px;
+  text-decoration: none;
+    color: #7e7c7c;
+}
+a:hover{
+ text-decoration: underline;
+}
+.btn{
+    display: flex;
+      justify-content: space-between;
+      align-items: center;
+ color: #7e7c7c;
+}
+.btn p:hover{
+  text-decoration: underline;
+  cursor: pointer;
+}
+button{
+  margin-left: 35px;
+  background: #f7f7f7;
+  font-size: 15px;
+ color: #7e7c7c;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #9c9999;
+  border-top-left-radius: 10% 30%;
+  border-top-right-radius: 10% 30%;
+  border-bottom-left-radius: 10% 30%;
+  border-bottom-right-radius: 10% 30%;
+}
+button:hover{
+  cursor: pointer;
+    background: #7e7c7c;
+      color: white;
+}
+
+div.content{
+  margin-left:150px;
+  margin-top: 120px;
+  width: 456px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.topic{
+ /* border: 1px solid ; */
+ font-size: 75px;
+ line-height: 70px;
+ margin-left: -4px;
+ width: 456px;
+}
+select{
+  border: none;
+  margin-left: -130px;
+  color: #7e7c7c;
+  background: #f7f7f7;
+}
+option{
+  color: black;
+}
+.text{
+ /* border: 1px solid; */
+ margin-top: 40px;
+ width: 370px;
+ font-size: 16px;
+ color: #7e7c7c;
+ font-weight: 400;
+}
+.content button{
+    background: black;
+    margin-left: 0px;
+    margin-top: 50px;
+    color: white;
+      width: 120px;
+      height: 40px;
+    border-top-left-radius: 10% 30%;
+    border-top-right-radius: 10% 30%;
+    border-bottom-left-radius: 10% 30%;
+    border-bottom-right-radius: 10% 30%;
+    font-size: 15px;
+}
+.content button:hover{
+  background: #7e7c7c;
+  color: black;
+  font-size: 16px;
+}
+img{
+ margin-left: 750px;
+ margin-top: -410px;
+ width: 380px;
+ height: 530px;
+}
+
+
+
+
+
+
